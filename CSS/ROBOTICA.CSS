@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.classe{
+	max-width: 1200px;
+    margin: auto;
+	width: 100%;
+	height: 250px;
+}
+.umidade{
+	text-align: center;
+	float: left;
+	background-color: #d9dbdb;
+	width: 50%;
+	height: 250px;
+
+}
+
+.temperatura{
+	text-align: center;
+	float: left;
+	background-color: #d9dbdb;
+	width: 50%;
+	height: 250px;
+
+}
+.meio{
+	max-width: 1200px;
+    margin: auto;
+	width: 100%;
+	height: 240px;
+
+}
+ header h1{
+ 	float: left;
+ }
+
+ header h2{
+ 	float: right;
+ }
+
+
+  input[type="checkbox"] {
+      position: relative;
+      width: 80px;
+      height: 40px;
+      -webkit-appearance: none; /* Aparência padrão do checkbox é anulada */
+      background-color: #c6c6c6; /* cor de fundo */
+      outline: none; /* sem borda externa */
+      border-radius: 20px; /* arrendodamento dos cantos */
+      box-shadow: inset 0 0 5px rgba(85, 85, 85, 0.2); /* sombra interna */
+      transition: .2s; /* tempo de transição que vai ocorrer com a cor de fundo e com a posção da bolinha*/
+      cursor: pointer;/* estabelecer que o mouse vai ter uma aparência como se fosse clicar em um botão */
+    }
+
+    input:checked[type="checkbox"] {
+      background-color: #29db3f;/* cor de fundo que vai ser aplicada quando o checkbox tiver uma alteração para checked */
+    }
+/* O seletor :before pode criar objetos antes do elemento principal, no caso cria a bolinha do botão  */
+    input[type="checkbox"]:before {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      top: 0;
+      left: 0;
+      background: #ffffff;
+      transform: scale(1.2);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      transition: .2s;
+    }
+
+    input:checked[type="checkbox"]:before {
+      left: 40px;
+    } 
+
+    
+.alarme{
+	border-right: 2px;
+	float: left;
+	text-align: center;
+	background-color: #d9dbdb;
+	width: 40%;
+	height: 120px;
+
+
+}
+header img{
+	margin-left: 6%;
+	width: 20%;
+	height: 200px;
+}
+header{
+	max-width: 1200px;
+    margin: auto;
+	background-color: #d9dbdb;
+	width: 100%;
+	height: 250px;
+
+}
+
+
+.acionar{
+	float: left;
+	text-align: center;
+	background-color:#d9dbdb;
+	width: 40%;
+	height: 120px;
+
+}
+.lolo{
+	float: right;
+	text-align: center;
+	background-color:#d9dbdb;
+	width: 60%;
+	height: 240px;
+}
+.lopi{
+	float: left;
+	width: 50%;
+	height: 240px;
+
+}
+.tipo{
+	float: left;
+	width: 50%;
+	height: 240px;
+
+}
+
+.sala{
+	float: right;
+	text-align: center;
+	background-color:#d9dbdb;
+	width: 100%;
+	height: 80px;
+
+}
+
+.cozinha{
+	float: right;
+	text-align: center;
+	background-color:#d9dbdb;
+	width: 100%;
+	height: 80px;
+
+}
+.quarto{
+	float: right;
+	text-align: center;
+	background-color:#d9dbdb;
+	width: 100%;
+	height: 80px;
+
+}
+.banheiro{
+	float: right;
+	text-align: center;
+	background-color:#d9dbdb;
+	width: 100%;
+	height: 80px;
+
+}
+.corredor{
+	float: right;
+	text-align: center;
+	background-color:#d9dbdb;
+	width: 100%;
+	height:80px;
+
+}
+.area{
+	float: right;
+	text-align: center;
+	background-color:#d9dbdb;
+	width: 100%;
+	height: 80px;
+
+}
+
+
+
+
+footer{
+	max-width: 1200px;
+    margin: auto;
+	background-color: #d9dbdb;
+	width: 100%;
+
+}
