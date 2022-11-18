@@ -1,47 +1,47 @@
 *{
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
 .classe{
-	max-width: 1200px;
+  max-width: 1200px;
     margin: auto;
-	width: 100%;
-	height: 250px;
+  width: 100%;
+  height: 250px;
 }
 .umidade{
-	text-align: center;
-	float: left;
-	background-color: #d9dbdb;
-	width: 50%;
-	height: 250px;
+  text-align: center;
+  float: left;
+  background-color: #d9dbdb;
+  width: 50%;
+  height: 250px;
 
 }
 
 .temperatura{
-	text-align: center;
-	float: left;
-	background-color: #d9dbdb;
-	width: 50%;
-	height: 250px;
+  text-align: center;
+  float: left;
+  background-color: #d9dbdb;
+  width: 50%;
+  height: 250px;
 
 }
 .meio{
-	max-width: 1200px;
+  max-width: 1200px;
     margin: auto;
-	width: 100%;
-	height: 240px;
+  width: 100%;
+  height: 240px;
 
 }
  header h1{
- 	float: left;
-	color: white;
+  float: left;
+  color: white;
  }
 
  header h2{
- 	float: right;
-	 color: white;
+  float: right;
+  color: white;
  }
 
 
@@ -82,105 +82,105 @@
 
     
 .alarme{
-	border-right: 2px;
-	float: left;
-	text-align: center;
-	background-color: #d9dbdb;
-	width: 40%;
-	height: 120px;
+  border-right: 2px;
+  float: left;
+  text-align: center;
+  background-color: #d9dbdb;
+  width: 40%;
+  height: 120px;
 
 
 }
 header img{
-	margin-left: 6%;
-	width: 20%;
-	height: 200px;
+  margin-left: 6%;
+  width: 20%;
+  height: 200px;
 }
 header{
-	max-width: 1200px;
+  max-width: 1200px;
     margin: auto;
-	background-color: #693B37;
-	width: 100%;
-	height: 250px;
+  background-color: #B77E79;
+  width: 100%;
+  height: 250px;
 
 }
 
 
 .acionar{
-	float: left;
-	text-align: center;
-	background-color:#d9dbdb;
-	width: 40%;
-	height: 120px;
+  float: left;
+  text-align: center;
+  background-color:#d9dbdb;
+  width: 40%;
+  height: 120px;
 
 }
 .lolo{
-	float: right;
-	text-align: center;
-	background-color:#d9dbdb;
-	width: 60%;
-	height: 240px;
+  float: right;
+  text-align: center;
+  background-color:#d9dbdb;
+  width: 60%;
+  height: 240px;
 }
 .lopi{
-	float: left;
-	width: 50%;
-	height: 240px;
+  float: left;
+  width: 50%;
+  height: 240px;
 
 }
 .tipo{
-	float: left;
-	width: 50%;
-	height: 240px;
+  float: left;
+  width: 50%;
+  height: 240px;
 
 }
 
 .sala{
-	float: right;
-	text-align: center;
-	background-color:#d9dbdb;
-	width: 100%;
-	height: 80px;
+  float: right;
+  text-align: center;
+  background-color:#d9dbdb;
+  width: 100%;
+  height: 80px;
 
 }
 
 .cozinha{
-	float: right;
-	text-align: center;
-	background-color:#d9dbdb;
-	width: 100%;
-	height: 80px;
+  float: right;
+  text-align: center;
+  background-color:#d9dbdb;
+  width: 100%;
+  height: 80px;
 
 }
 .quarto{
-	float: right;
-	text-align: center;
-	background-color:#d9dbdb;
-	width: 100%;
-	height: 80px;
+  float: right;
+  text-align: center;
+  background-color:#d9dbdb;
+  width: 100%;
+  height: 80px;
 
 }
 .banheiro{
-	float: right;
-	text-align: center;
-	background-color:#d9dbdb;
-	width: 100%;
-	height: 80px;
+  float: right;
+  text-align: center;
+  background-color:#d9dbdb;
+  width: 100%;
+  height: 80px;
 
 }
 .corredor{
-	float: right;
-	text-align: center;
-	background-color:#d9dbdb;
-	width: 100%;
-	height:80px;
+  float: right;
+  text-align: center;
+  background-color:#d9dbdb;
+  width: 100%;
+  height:80px;
 
 }
 .area{
-	float: right;
-	text-align: center;
-	background-color:#d9dbdb;
-	width: 100%;
-	height: 80px;
+  float: right;
+  text-align: center;
+  background-color:#d9dbdb;
+  width: 100%;
+  height: 80px;
 
 }
 
@@ -188,9 +188,9 @@ header{
 
 
 footer{
-	max-width: 1200px;
+  max-width: 1200px;
     margin: auto;
-	background-color: #d9dbdb;
-	width: 100%;
+  background-color: #d9dbdb;
+  width: 100%;
 
 }
