@@ -4,108 +4,127 @@
 }
 
 
-.classe{
-  max-width: 1200px;
-    margin: auto;
-  width: 100%;
-  height: 250px;
+body {
+    max-width: auto;
 }
+
+header {
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+
+ }
+
+#h001 {
+    font-family: 'Patrick Hand', cursive;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+#logo {
+    width: 260px;
+    height: 240px;
+
+}
+
+.classe{
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+
+}
+
 .umidade{
-  text-align: center;
-  float: left;
-  background-color: #d9dbdb;
-  width: 50%;
-  height: 250px;
+    float: left;
+    width: 50%;
+    height: 300px;
+
+}
+
+.umidade h1{
+    text-align: center;
 
 }
 
 .temperatura{
-  text-align: center;
-  float: left;
-  background-color: #d9dbdb;
-  width: 50%;
-  height: 250px;
+    float: left;
+    width: 50%;
+    height: 300px;
+
 
 }
-.meio{
-  max-width: 1200px;
+
+.temperatura h1{
+    text-align: center;
+ 
+}
+
+.box{
+    width: 160px;
     margin: auto;
-  width: 100%;
-  height: 240px;
-
-}
- header h1{
-  float: left;
-  color: white;
- }
-
- header h2{
-  float: right;
-  color: white;
- }
-
-
-  input[type="checkbox"] {
-      position: relative;
-      width: 80px;
-      height: 40px;
-      -webkit-appearance: none; /* Aparência padrão do checkbox é anulada */
-      background-color: #c6c6c6; /* cor de fundo */
-      outline: none; /* sem borda externa */
-      border-radius: 20px; /* arrendodamento dos cantos */
-      box-shadow: inset 0 0 5px rgba(85, 85, 85, 0.2); /* sombra interna */
-      transition: .2s; /* tempo de transição que vai ocorrer com a cor de fundo e com a posção da bolinha*/
-      cursor: pointer;/* estabelecer que o mouse vai ter uma aparência como se fosse clicar em um botão */
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    }
+    .box-circle svg{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    }
+    circle{
+    width: 150px;
+    height: 150px;
+    fill:none;
+    stroke: black;
+    stroke-width: 8;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    }
+    circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke:rgb(68, 68, 68);
+    }
+    circle:nth-child(2){
+    stroke:dodgerblue;
+    transition: stroke-dashoffset 0.8s;
+    }
+    .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     }
 
-    input:checked[type="checkbox"] {
-      background-color: #29db3f;/* cor de fundo que vai ser aplicada quando o checkbox tiver uma alteração para checked */
-    }
-/* O seletor :before pode criar objetos antes do elemento principal, no caso cria a bolinha do botão  */
-    input[type="checkbox"]:before {
-      content: '';
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      top: 0;
-      left: 0;
-      background:#6B312E;
-      transform: scale(1.2);
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-      transition: .2s;
-    }
-
-    input:checked[type="checkbox"]:before {
-      left: 40px;
-    } 
-
-    
-.alarme{
-  border-right: 2px;
-  float: left;
-  text-align: center;
-  background-color: #d9dbdb;
-  width: 40%;
-  height: 120px;
-
-
-}
-header img{
-  margin-left: 6%;
-  width: 20%;
-  height: 200px;
-}
-header{
-  max-width: 1200px;
+.umid{
+    width: 260px;
     margin: auto;
-  background-color: #B77E79;
-  width: 100%;
-  height: 250px;
-
+    padding-top: 15px;
 }
 
+.umi{
+    margin: auto;
+    background-color:;
+    width: 50%;
+    height: 300px;
 
+
+}
 .acionar{
   float: left;
   text-align: center;
@@ -181,16 +200,5 @@ header{
   background-color:#d9dbdb;
   width: 100%;
   height: 80px;
-
-}
-
-
-
-
-footer{
-  max-width: 1200px;
-    margin: auto;
-  background-color: #d9dbdb;
-  width: 100%;
 
 }
