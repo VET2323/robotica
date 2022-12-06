@@ -1,4 +1,4 @@
- *{
+  *{
   font-family: 'Patrick Hand', cursive;
   padding: 0;
   margin: 0;
@@ -30,6 +30,7 @@ header {
     font-family: 'Patrick Hand', cursive;
     padding: 20px;
     padding-right: 130px;
+    width: 396px;
 }
 
 .logo {
@@ -310,3 +311,44 @@ input:checked[type="checkbox"]:before {
   left: 40px;
 }
 
+@media only screen and (max-width: 390px) {
+  header{
+    font-size: 12px;
+  }
+
+  #h001{
+    padding-right: 30px;
+    width: 186px;
+  }
+
+  #logo{
+    width: 240px;
+    margin-left: -35px;
+  }
+
+  .umi h1{
+    font-size: 22px;
+  }
+
+  svg{
+        margin-left: -40px; 
+  }
+
+  .lopi h1{
+    font-size: 22px;
+  }
+  .espaco h1{
+    font-size: 17px;
+  }
+  .alarme h1, .acionar h1{
+    font-size: 17px;
+  }
+  input{
+    margin-top:5px;
+  }
+
+  footer{
+    
+    font-size: 11px;
+  }
+}
