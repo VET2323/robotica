@@ -110,7 +110,7 @@ header {
     stroke:dodgerblue;
     transition: stroke-dashoffset 0.8s;
     }
-    .number{
+    .box number{
     position: absolute;
     top: 0;
     left: 0;
