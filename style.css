@@ -15,7 +15,13 @@ header {
     background-color: #e9d8d8;
 
  }
+ #numberProgress, #numberProgress2{
+  display: none;
+ }
 
+ button{
+  display: none
+ }
  .clear{
   clear: both;
  }
