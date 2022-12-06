@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 body {
     max-width: auto;
 }
@@ -15,6 +14,10 @@ header {
     display: flex;
     padding: 0;
 
+ }
+
+ .clear{
+  clear: both;
  }
 
 #h001 {
@@ -69,6 +72,14 @@ header {
  
 }
 
+.alarme{
+  border-right: 2px;
+  float: left;
+  text-align: center;
+  width: 40%;
+  height: 120px; 
+}
+
 .box{
     width: 160px;
     margin: auto;
@@ -104,7 +115,6 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,28 +129,28 @@ header {
 
 .umi{
     margin: auto;
-    background-color:;
     width: 50%;
     height: 300px;
 
 
 }
 .acionar{
+  padding: auto;
   float: left;
   text-align: center;
-  background-color:#d9dbdb;
   width: 40%;
   height: 120px;
 
 }
 .lolo{
+  padding: auto;
   float: right;
   text-align: center;
-  background-color:#d9dbdb;
   width: 60%;
   height: 240px;
 }
 .lopi{
+  padding: auto;
   float: left;
   width: 50%;
   height: 240px;
@@ -150,56 +160,99 @@ header {
   float: left;
   width: 50%;
   height: 240px;
+  padding: auto;
+
 
 }
 
 .sala{
   float: right;
   text-align: center;
-  background-color:#d9dbdb;
   width: 100%;
   height: 80px;
+  padding: auto;
+
 
 }
 
 .cozinha{
   float: right;
   text-align: center;
-  background-color:#d9dbdb;
   width: 100%;
   height: 80px;
+  padding: auto;
+
 
 }
 .quarto{
   float: right;
   text-align: center;
-  background-color:#d9dbdb;
   width: 100%;
   height: 80px;
+  padding: auto;
+
 
 }
 .banheiro{
   float: right;
   text-align: center;
-  background-color:#d9dbdb;
   width: 100%;
   height: 80px;
+  padding: auto;
+
 
 }
 .corredor{
   float: right;
   text-align: center;
-  background-color:#d9dbdb;
   width: 100%;
   height:80px;
+  padding: auto;
+
 
 }
 .area{
   float: right;
   text-align: center;
-  background-color:#d9dbdb;
   width: 100%;
   height: 80px;
+  padding: auto;
 
+
+}
+
+input[type="checkbox"] {
+  position: relative;
+  width: 80px;
+  height: 40px;
+  -webkit-appearance: none; /* Aparência padrão do checkbox é anulada */
+  background-color: #c6c6c6; /* cor de fundo */
+  outline: none; /* sem borda externa */
+  border-radius: 20px; /* arrendodamento dos cantos */
+  box-shadow: inset 0 0 5px rgba(85, 85, 85, 0.2); /* sombra interna */
+  transition: .2s; /* tempo de transição que vai ocorrer com a cor de fundo e com a posção da bolinha*/
+  cursor: pointer;/* estabelecer que o mouse vai ter uma aparência como se fosse clicar em um botão */
+}
+
+input:checked[type="checkbox"] {
+  background-color: #29db3f;/* cor de fundo que vai ser aplicada quando o checkbox tiver uma alteração para checked */
+}
+/* O seletor :before pode criar objetos antes do elemento principal, no caso cria a bolinha do botão  */
+input[type="checkbox"]:before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  background:#6B312E;
+  transform: scale(1.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: .2s;
+}
+
+input:checked[type="checkbox"]:before {
+  left: 40px;
 }
 
