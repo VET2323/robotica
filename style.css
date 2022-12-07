@@ -262,7 +262,8 @@ header {
 }
 
 footer{
-  max-width: 1200px;
+    text-align: center;
+    max-width: 1200px;
     margin: auto;
     width: 100%;
     height: 100px;
